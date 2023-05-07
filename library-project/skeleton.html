@@ -14,16 +14,33 @@
     <div class="button-container">
         <button id="library-add">Add a book!</button>
     </div>
+    <div id="form-id">
+        <form id="book-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter book name"><br>
+        
+            <label for="author">Author:</label>
+            <input type="text" id="author" author="author" placeholder="Author"><br>
 
-    <form id="book-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+            <label for="pages">Pages:</label>
+            <input type="text" id="pages" pages="pages" placeholder="Enter pages"><br>
+            
+            <label for="read">Read status:</label>
+            <input type="text" id="read" read="read" placeholder="Have you read this?"><br>
+            <div>
+                <button id="show-all">Show all</button>
+            </div>
 
-        <label for="email">Email:</label><br>
-        <div>
-            <button id="close-form">Done</button>
-        </div>
-
-    </form>
+            <div>
+                <button id="add-book">Add this book</button>
+            </div>
+            
+            <!--problem: this closes the form when the user clicks-->
+            <div>
+                <button id="close-form">Done</button>
+            </div>
+        
+        </form>
+    </div>
 </body>
 </html>
